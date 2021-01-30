@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <style>
+        div{
+            margin-left: 2em;
+        }
+        p{
+            width: auto; 
+            height: auto;
+        }
+    </style>
+</head>
+<body onresize="size_window()">
+    <h2>Third Assignment</h2>
+    A. 1) Credit Card Validation,call function validateCreditCard('creditcard number') on developer console.
+    <script src="CreditCardValid.js"></script><br>
+    A. 2) Enter two dates in mm/dd/yyyy or mm-dd-yyyy format :-<div><br>Date 1 - <input type="text" id="date1" tabindex="1"><br><br>
+    Date 2 - <input type="text" id="date2" tabindex="2"><br><br>
+    <button onclick="diff_two_dates(date1,date2)" tabindex="3">Find Difference</button>
+    <p id="diff_dates"></p></div>
+    <script src="date_diff_days.js"></script><br>
+    A. 3) Window size is :- <strong id="win_size"></strong><script src="window_size.js"></script><br>
+    A. 4) Enter a 3-digits number to check it is Armstrong or not :- <input type="text" id="armnumber" tabindex="4">
+    <script src="ArmstrNum.js"></script><br>
+    <div><br><button onclick="chkArmnum()" tabindex="5">Check Number</button>
+    <p id="arnum"></p><br></div>
+    A. 5) Enter two numbers to find the LCM of them :-<div><br>Number 1 - <input type="text" id="num1" tabindex="6"><br><br>
+    Number 2 - <input type="text" id="num2" tabindex="7"><br><br>
+    <button onclick="console.log(lcm_of_two_num(num1,num2))" tabindex="8">Find LCM</button>
+    <p id="lcm"></p></div>
+    <script src="lcmNum.js"></script>
+</body>
+</html>
